@@ -517,31 +517,31 @@
       "Category": {
         "required": [
           "id",
-          "Name"
+          "name"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "Name": {
+          "name": {
             "type": "string"
           },
           "category": {
             "required": [
               "id",
-              "Name"
+              "name"
             ],
             "properties": {
               "id": {
                 "type": "string"
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "category": {
                 "type": "string"
               },
-              "SubCategories": {
+              "subCategories": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -555,24 +555,24 @@
               }
             }
           },
-          "SubCategories": {
+          "subCategories": {
             "type": "array",
             "items": {
               "required": [
                 "id",
-                "Name"
+                "name"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
-                "Name": {
+                "name": {
                   "type": "string"
                 },
                 "category": {
                   "type": "string"
                 },
-                "SubCategories": {
+                "subCategories": {
                   "type": "array",
                   "items": {
                     "type": "string"
@@ -591,16 +591,16 @@
       },
       "NewCategory": {
         "required": [
-          "Name"
+          "name"
         ],
         "properties": {
-          "Name": {
+          "name": {
             "type": "string"
           },
           "category": {
             "type": "string"
           },
-          "SubCategories": {
+          "subCategories": {
             "type": "array",
             "items": {
               "type": "string"

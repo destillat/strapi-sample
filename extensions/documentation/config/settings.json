@@ -1,0 +1,12 @@
+{
+  "servers": [
+    {
+      "url": "http://localhost:1337",
+      "description": "Development server"
+    },
+    {
+      "url": "https://teststrapitest.herokuapp.com/",
+      "description": "heroku"
+    }
+  ]
+}
