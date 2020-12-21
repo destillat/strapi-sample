@@ -15,13 +15,8 @@
       "type": "string",
       "required": true
     },
-    "category": {
-      "model": "category",
-      "via": "subCategories"
-    },
     "subCategories": {
-      "collection": "category",
-      "via": "category"
+      "collection": "category"
     }
   }
 }

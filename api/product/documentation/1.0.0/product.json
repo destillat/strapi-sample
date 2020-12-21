@@ -542,14 +542,8 @@
               "name": {
                 "type": "string"
               },
-              "category": {
-                "type": "string"
-              },
               "subCategories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+                "type": "string"
               },
               "created_by": {
                 "type": "string"

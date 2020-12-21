@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "12/17/2020 12:19:06 PM"
+    "x-generation-date": "12/21/2020 11:26:58 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -27,8 +27,8 @@
       "description": "Development server"
     },
     {
-      "url": "YOUR_STAGING_SERVER",
-      "description": "Staging server"
+      "url": "https://teststrapitest.herokuapp.com/",
+      "description": "heroku"
     },
     {
       "url": "YOUR_PRODUCTION_SERVER",
@@ -3180,7 +3180,7 @@
           "name": {
             "type": "string"
           },
-          "category": {
+          "subCategories": {
             "required": [
               "id",
               "name"
@@ -3192,52 +3192,14 @@
               "name": {
                 "type": "string"
               },
-              "category": {
-                "type": "string"
-              },
               "subCategories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+                "type": "string"
               },
               "created_by": {
                 "type": "string"
               },
               "updated_by": {
                 "type": "string"
-              }
-            }
-          },
-          "subCategories": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "category": {
-                  "type": "string"
-                },
-                "subCategories": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
               }
             }
           }
@@ -3251,14 +3213,8 @@
           "name": {
             "type": "string"
           },
-          "category": {
-            "type": "string"
-          },
           "subCategories": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+            "type": "string"
           },
           "created_by": {
             "type": "string"
@@ -3296,14 +3252,8 @@
               "name": {
                 "type": "string"
               },
-              "category": {
-                "type": "string"
-              },
               "subCategories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+                "type": "string"
               },
               "created_by": {
                 "type": "string"
