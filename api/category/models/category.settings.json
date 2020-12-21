@@ -15,8 +15,22 @@
       "type": "string",
       "required": true
     },
+    "parent": {
+      "model": "category",
+      "via": "subCategories"
+    },
     "subCategories": {
-      "collection": "category"
+      "collection": "category",
+      "via": "parent"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

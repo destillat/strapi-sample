@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "promoted_categories",
+  "info": {
+    "name": "promotedCategories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    }
+  }
+}

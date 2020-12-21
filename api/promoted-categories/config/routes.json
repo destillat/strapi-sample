@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/promoted-categories",
+      "handler": "promoted-categories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/promoted-categories",
+      "handler": "promoted-categories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/promoted-categories",
+      "handler": "promoted-categories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
