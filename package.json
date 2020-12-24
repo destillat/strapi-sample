@@ -7,9 +7,13 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "generate": "rimraf client && openapi-generator-cli generate -i ./extensions/documentation/documentation/1.0.0/full_documentation.json -g typescript-fetch -o ./client --additional-properties=withInterfaces=true --skip-validate-spec"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.1.15",
+    "rimraf": "^3.0.2"
+  },
   "dependencies": {
     "knex": "<0.20.0",
     "pg": "^8.5.1",

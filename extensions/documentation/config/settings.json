@@ -8,5 +8,8 @@
       "url": "https://teststrapitest.herokuapp.com/",
       "description": "heroku"
     }
-  ]
+  ],
+  "x-strapi-config": {
+    "pluginsForWhichToGenerateDoc": []
+  }
 }
