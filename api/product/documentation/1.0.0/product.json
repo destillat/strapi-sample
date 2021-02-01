@@ -556,6 +556,10 @@
                 },
                 "spec": {
                   "type": "string"
+                },
+                "value": {
+                  "type": "string",
+                  "default": "N/A"
                 }
               }
             }
@@ -611,6 +615,10 @@
                 },
                 "spec": {
                   "type": "string"
+                },
+                "value": {
+                  "type": "string",
+                  "default": "N/A"
                 }
               }
             }

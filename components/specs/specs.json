@@ -2,12 +2,17 @@
   "collectionName": "components_specs_specs",
   "info": {
     "name": "specs",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "spec": {
       "type": "string"
+    },
+    "value": {
+      "type": "string",
+      "default": "N/A"
     }
   }
 }
