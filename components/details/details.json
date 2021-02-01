@@ -2,12 +2,14 @@
   "collectionName": "components_details_details",
   "info": {
     "name": "details",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "detail": {
-      "type": "string"
+      "type": "string",
+      "default": "Intel Core i7-10700F"
     }
   }
 }

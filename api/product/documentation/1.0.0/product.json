@@ -538,7 +538,8 @@
                   "type": "string"
                 },
                 "detail": {
-                  "type": "string"
+                  "type": "string",
+                  "default": "Intel Core i7-10700F"
                 }
               }
             }
@@ -597,7 +598,8 @@
                   "type": "string"
                 },
                 "detail": {
-                  "type": "string"
+                  "type": "string",
+                  "default": "Intel Core i7-10700F"
                 }
               }
             }

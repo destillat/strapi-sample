@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/01/2021 11:55:33 AM"
+    "x-generation-date": "02/01/2021 12:55:02 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1368,7 +1368,8 @@
                   "type": "string"
                 },
                 "detail": {
-                  "type": "string"
+                  "type": "string",
+                  "default": "Intel Core i7-10700F"
                 }
               }
             }
@@ -1427,7 +1428,8 @@
                   "type": "string"
                 },
                 "detail": {
-                  "type": "string"
+                  "type": "string",
+                  "default": "Intel Core i7-10700F"
                 }
               }
             }
