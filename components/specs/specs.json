@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_specs_specs",
+  "info": {
+    "name": "specs",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "spec": {
+      "type": "string"
+    }
+  }
+}

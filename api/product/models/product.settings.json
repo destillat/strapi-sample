@@ -32,6 +32,16 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "details.details"
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specs.specs"
     }
   }
 }
